@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostTile Component PostTile component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#d2d5d6",
+        "flex": 1,
+        "padding": 10,
+        "paddingTop": 15,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "space-around",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 6,
+        "elevation": 5,
+        "opacity": 1,
+        "padding": 20,
+        "shadowColor": "black",
+        "shadowOffset": Object {
+          "height": 6,
+        },
+        "shadowOpacity": 0.3,
+        "shadowRadius": 4,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      test username
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 15,
+        }
+      }
+    >
+      test title
+    </Text>
+  </View>
+</View>
+`;
